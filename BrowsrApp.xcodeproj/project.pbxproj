@@ -7,13 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1CFE14EB298543C2002FEAD7 /* BrowsrAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CFE14EA298543C2002FEAD7 /* BrowsrAppApp.swift */; };
+		1CFE14EB298543C2002FEAD7 /* BrowsrApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CFE14EA298543C2002FEAD7 /* BrowsrApp.swift */; };
 		1CFE14ED298543C2002FEAD7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CFE14EC298543C2002FEAD7 /* ContentView.swift */; };
 		1CFE14EF298543C4002FEAD7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1CFE14EE298543C4002FEAD7 /* Assets.xcassets */; };
 		1CFE14F2298543C4002FEAD7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1CFE14F1298543C4002FEAD7 /* Preview Assets.xcassets */; };
 		1CFE14FC298543C5002FEAD7 /* BrowsrAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CFE14FB298543C5002FEAD7 /* BrowsrAppTests.swift */; };
 		1CFE1506298543C5002FEAD7 /* BrowsrAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CFE1505298543C5002FEAD7 /* BrowsrAppUITests.swift */; };
 		1CFE1508298543C5002FEAD7 /* BrowsrAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CFE1507298543C5002FEAD7 /* BrowsrAppUITestsLaunchTests.swift */; };
+		1CFE151B29854D98002FEAD7 /* BrowsrFramework in Frameworks */ = {isa = PBXBuildFile; productRef = 1CFE151A29854D98002FEAD7 /* BrowsrFramework */; };
+		1CFE151D29857895002FEAD7 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CFE151C29857895002FEAD7 /* ViewModel.swift */; };
+		1CFE151E29857895002FEAD7 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CFE151C29857895002FEAD7 /* ViewModel.swift */; };
+		1CFE152029857EC8002FEAD7 /* Favorites.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CFE151F29857EC8002FEAD7 /* Favorites.swift */; };
+		1CFE152129857EC8002FEAD7 /* Favorites.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CFE151F29857EC8002FEAD7 /* Favorites.swift */; };
+		1CFE1523298580B1002FEAD7 /* OrganizationsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CFE1522298580B1002FEAD7 /* OrganizationsListView.swift */; };
+		1CFE1524298580B1002FEAD7 /* OrganizationsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CFE1522298580B1002FEAD7 /* OrganizationsListView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,7 +42,7 @@
 
 /* Begin PBXFileReference section */
 		1CFE14E7298543C2002FEAD7 /* BrowsrApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BrowsrApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		1CFE14EA298543C2002FEAD7 /* BrowsrAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrowsrAppApp.swift; sourceTree = "<group>"; };
+		1CFE14EA298543C2002FEAD7 /* BrowsrApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrowsrApp.swift; sourceTree = "<group>"; };
 		1CFE14EC298543C2002FEAD7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		1CFE14EE298543C4002FEAD7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1CFE14F1298543C4002FEAD7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -44,6 +51,9 @@
 		1CFE1501298543C5002FEAD7 /* BrowsrAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BrowsrAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1CFE1505298543C5002FEAD7 /* BrowsrAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrowsrAppUITests.swift; sourceTree = "<group>"; };
 		1CFE1507298543C5002FEAD7 /* BrowsrAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrowsrAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		1CFE151C29857895002FEAD7 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		1CFE151F29857EC8002FEAD7 /* Favorites.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Favorites.swift; sourceTree = "<group>"; };
+		1CFE1522298580B1002FEAD7 /* OrganizationsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrganizationsListView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +61,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1CFE151B29854D98002FEAD7 /* BrowsrFramework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -94,8 +105,11 @@
 		1CFE14E9298543C2002FEAD7 /* BrowsrApp */ = {
 			isa = PBXGroup;
 			children = (
-				1CFE14EA298543C2002FEAD7 /* BrowsrAppApp.swift */,
+				1CFE1522298580B1002FEAD7 /* OrganizationsListView.swift */,
+				1CFE151F29857EC8002FEAD7 /* Favorites.swift */,
+				1CFE14EA298543C2002FEAD7 /* BrowsrApp.swift */,
 				1CFE14EC298543C2002FEAD7 /* ContentView.swift */,
+				1CFE151C29857895002FEAD7 /* ViewModel.swift */,
 				1CFE14EE298543C4002FEAD7 /* Assets.xcassets */,
 				1CFE14F0298543C4002FEAD7 /* Preview Content */,
 			);
@@ -143,6 +157,9 @@
 			dependencies = (
 			);
 			name = BrowsrApp;
+			packageProductDependencies = (
+				1CFE151A29854D98002FEAD7 /* BrowsrFramework */,
+			);
 			productName = BrowsrApp;
 			productReference = 1CFE14E7298543C2002FEAD7 /* BrowsrApp.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +232,9 @@
 				Base,
 			);
 			mainGroup = 1CFE14DE298543C2002FEAD7;
+			packageReferences = (
+				1CFE151929854D98002FEAD7 /* XCRemoteSwiftPackageReference "BrowsrFramework" */,
+			);
 			productRefGroup = 1CFE14E8298543C2002FEAD7 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -258,7 +278,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				1CFE14ED298543C2002FEAD7 /* ContentView.swift in Sources */,
-				1CFE14EB298543C2002FEAD7 /* BrowsrAppApp.swift in Sources */,
+				1CFE152029857EC8002FEAD7 /* Favorites.swift in Sources */,
+				1CFE151D29857895002FEAD7 /* ViewModel.swift in Sources */,
+				1CFE1523298580B1002FEAD7 /* OrganizationsListView.swift in Sources */,
+				1CFE14EB298543C2002FEAD7 /* BrowsrApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,6 +289,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1CFE152129857EC8002FEAD7 /* Favorites.swift in Sources */,
+				1CFE1524298580B1002FEAD7 /* OrganizationsListView.swift in Sources */,
+				1CFE151E29857895002FEAD7 /* ViewModel.swift in Sources */,
 				1CFE14FC298543C5002FEAD7 /* BrowsrAppTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -583,6 +609,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		1CFE151929854D98002FEAD7 /* XCRemoteSwiftPackageReference "BrowsrFramework" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/brunojasgv/BrowsrFramework.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		1CFE151A29854D98002FEAD7 /* BrowsrFramework */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1CFE151929854D98002FEAD7 /* XCRemoteSwiftPackageReference "BrowsrFramework" */;
+			productName = BrowsrFramework;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 1CFE14DF298543C2002FEAD7 /* Project object */;
 }

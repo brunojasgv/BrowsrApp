@@ -54,9 +54,7 @@ struct OrganizationsListView: View {
                             }
                         }
                     }
-                    .searchable(text: $searchString, prompt: "Organization...", suggestions: {
-                        
-                    })
+                    .searchable(text: $searchString, prompt: "Organization...", suggestions: {})
                     .onChange(of: searchString) { newString in
                         if newString.isEmpty {
                             viewModel.sortOrganization(sortSelection)

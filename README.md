@@ -1,4 +1,4 @@
-# Frontend Coding Challenge Browsr App
+# Frontend Coding Browsr App
 
 # Part 1
 
